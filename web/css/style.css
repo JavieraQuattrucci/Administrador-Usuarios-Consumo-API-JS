@@ -1,0 +1,84 @@
+
+/* Configuración General */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f3f8f2; /* Verde pastel muy claro */
+    color: #7a7a7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 5px 5px 0px #d0e1d4; /* Sombra flat */
+    border: 2px solid #b8d8be;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #779ecb; /* Azul pastel */
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #6d6d6d;
+}
+
+/* Grid de Botones Cuadrados */
+.grid-botones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.grid-lista{
+    padding: 20px;
+    margin:auto;
+    font-size:1.3em;
+}
+
+button {
+    background-color: #ffb7b2; /* Coral/Rosado pastel */
+    border: 2px solid #ff9aa2;
+    color: #ffffff;
+    padding: 15px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 0px !important; /* Estrictamente cuadrado */
+    transition: background-color 0.2s ease;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #ff9aa2;
+}
+
+/* Variaciones de colores pasteles para los botones (opcional, para dar variedad) */
+#btn-info-basica { background-color: #ffdac1; border-color: #ffb7b2; color: #6d5b4f;}
+#btn-info-basica:hover { background-color: #ffb7b2; }
+
+#btn-direccion { background-color: #e2f0cb; border-color: #b8d8be; color: #556b2f;}
+#btn-direccion:hover { background-color: #b8d8be; }
+
+#btn-info-avanzada { background-color: #b5ead7; border-color: #98d8c1; color: #2e5a44;}
+#btn-info-avanzada:hover { background-color: #98d8c1; }
+
+#btn-companias { background-color: #c7ceea; border-color: #b5bad0; color: #4a4e69;}
+#btn-companias:hover { background-color: #b5bad0; }
+
+#btn-ordenados { background-color: #ff9aa2; border-color: #e07a5f; color: #fff;}
+#btn-ordenados:hover { background-color: #e07a5f; }
