@@ -23,3 +23,4 @@ El estándar de **Fetch API** se incluyó en los navegadores en el año **2015**
 * **Fetch** permite integrar **`async/await`**, transformando el flujo asincrónico para que se lea y comporte igual que el **código sincrónico tradicional**.
 
 ### 🛡️ Manejo de Errores
+* **XHR** maneja errores de red mediante **eventos separados**, mientras que **Fetch** unifica todo el flujo de errores dentro de un **único bloque de captura**
