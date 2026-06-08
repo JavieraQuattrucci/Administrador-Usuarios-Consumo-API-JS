@@ -1,6 +1,6 @@
 # 🌐 Consumo de APIs Públicas con XMLHttpRequest
 
-## 📌 Introducción
+## Introducción
 Proyecto que consume API pública y utiliza **XMLHttpRequest** para crear las peticiones. Esta práctica es **antigua**, se recomienda el uso de **fetch** que permite el uso de **promesas** para un **flujo asincrónico**. Además de que **optimiza y facilita el manejo de errores**.
 
 <p align="center">
